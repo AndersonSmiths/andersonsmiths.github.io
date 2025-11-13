@@ -200,4 +200,163 @@ footer {
   transform: translateX(-4px);
 }
 
+/* --- Projects hub overrides (final) --- */
 
+/* make the hub wide */
+.hub.container { max-width: 1200px; }
+@media (min-width: 1280px) { .hub.container { max-width: 1280px; } }
+
+/* a touch more column spacing */
+.hub .row { --bs-gutter-x: 2rem; }
+
+/* TILE: remove the “light” card box and let the image + text own the space */
+.hub-card {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+
+  /* remove the box look */
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+  /* no outer scale to avoid a rectangular box; we’ll scale the image instead */
+  transition: filter .18s ease;
+}
+
+/* IMAGE: bigger + crisper; handles the visual hover “pop” */
+.hub-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 18px;           /* soft corners like before */
+  display: block;
+  margin-bottom: .9rem;
+
+  transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+}
+
+/* CAPTION: bold and a bit larger */
+.hub-card span {
+  display: block;
+  font-weight: 800;
+  font-size: 1.15rem;            /* bumped up */
+}
+
+/* STRONGER HOVER:
+   scale the image so the whole tile feels bigger,
+   add a deeper shadow, and a slight lift */
+.hub-card:hover .hub-img {
+  transform: scale(1.10);        /* more dramatic **can go to 1.10 for even more drama*/
+  box-shadow: 0 22px 48px rgba(0,0,0,.55);
+  filter: saturate(1.03);
+}
+
+/* keep each column ~32% so tiles are ~1.25× larger, 3 across on desktop **can make it 33% to make tiles larger still*/
+.hub .row.g-4.justify-content-center > .col-10 {
+  flex: 0 0 32%;
+  max-width: 32%;
+}
+@media (max-width: 992px) {
+  .hub .row.g-4.justify-content-center > .col-10 { flex: 0 0 46%; max-width: 46%; }
+}
+@media (max-width: 600px) {
+  .hub .row.g-4.justify-content-center > .col-10 { flex: 0 0 86%; max-width: 86%; }
+}
+
+/* Centered heading for Projects page */
+.projects-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: $text-color;
+}
+
+/* Make tile text lighter (less bold) */
+.hub-card span {
+  font-weight: 400; /* Was 700 before */
+  font-size: 1.1rem;
+  display: block;
+  margin-top: 10px;
+  color: $text-color;
+}
+
+/* Keep the hover pop — make it more dramatic */
+.hub-card {
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 16px;
+}
+
+.hub-card:hover {
+  transform: scale(1.10); /* Slightly larger hover effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Section images inside long-form pages */
+.section-img {
+  display: block;
+  max-width: 900px;   /* adjust if you want wider */
+  width: 100%;
+  border-radius: 12px;
+  margin: 0 auto 1rem;  /* center + spacing under image */
+  box-shadow: 0 8px 28px rgba(0,0,0,.25);
+}
+
+/* Horizontal rule style for project breaks (the '---' in markdown) */
+main hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.15);
+  margin: 2.5rem auto;
+  max-width: 900px;
+}
+
+.back-arrow-container {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 0%; /*alter this to adjust arrow indent across page*/
+}
+
+.profile-image {
+  width: 250px !important;   /* Increase or decrease as you like */
+  height: auto;   /* Keeps correct proportions */
+  border-radius: 10px;  /* Optional: keeps rounded corners */
+  margin-right: 20px;   /* Adds spacing from the text */
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-image {
+    width: 400px;
+  }
+}
+
+/* Responsive YouTube embeds */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

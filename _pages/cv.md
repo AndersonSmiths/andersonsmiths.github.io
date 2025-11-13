@@ -1,74 +1,53 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: CV
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my Resume]({{ "/assets/Resume.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [dda38@cornell.edu](mailto:dda38@cornell.edu) | | | **Phone:** [+1 (856) 562-5495](tel:+18565625495)
+
+**LinkedIn:** [Click Here](https://www.linkedin.com/in/daniel-akinwale-894297202/){:target="_blank" rel="noopener"}
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring mechanical engineer with a strong foundation in CAD, machining, and teaching who is eager to apply my knowledge to real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  Graduation: May 2026  
 
-- **[High School Name]**  
+- **Williamstown High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: June 2022  
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
-
----
-
-#### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
-
----
-
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
-
----
-
-#### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
+- **Software:** SolidWorks, Autodesk Fusion 360, ANSYS, Microsoft Office Suite, MATLAB, Python
+- **Tools:** 3D Printing, Laser Cutting, Lathes, Mills, CNC Machining, Vertical & Horizontal Saws, Hand Tools, etc.
+- **Languages:** Yoruba, English
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Manager of MAE Manufacturing Learning Studio
+- Composites Subteam Lead of Cornell Hyperloop
+- Member of National Society of Black Engineers
+- Cornell Maker Club
+- Cornell Rock Climbing Club
+- Cornell Ski & Snowboard Club
 
 ---
 
-#### References
+#### References and Letters of Recommendation
 Available upon request.
 
 ---

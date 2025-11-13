@@ -1,0 +1,14 @@
+Just notes on how we created ts and stuff you might want to remember later
+
+Names for Project Tile Images:
+***keep files <200kb, JPG of PNG, and 1000px by 1000px
+
+/assets/images/hub-coursework.jpg
+/assets/images/hub-hyperloop.jpg
+/assets/images/hub-internship.jpg
+/assets/images/hub-machine.jpg
+/assets/images/hub-personal.jpg
+/assets/images/hub-all.jpg
+
+Sometimes things don't show up because you need to reload the entire thing.
+- Go to Teminal -> New Terminal -> Type in: bundle exec jekyll serve
