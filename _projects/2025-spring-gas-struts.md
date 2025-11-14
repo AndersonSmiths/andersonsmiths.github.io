@@ -2,7 +2,7 @@
 layout: project
 title: Gas Struts
 description: Struts chosen and used to prop up completed Aeroshell project
-technologies: [Solidworks, 3D Printing]
+technologies: [Solidworks, Mills, 3D Printing, Hand Tools]
 image: /assets/images/gas-struts.jpg
 category: hyperloop
 ---
@@ -25,3 +25,4 @@ Took these calculations and purchased gas struts according to these specificatio
 ![Gas Strut Apparatus]({{ "/assets/images/gas-strut-irl.jpg" | relative_url }}){: .inline-image-r style="width: 40%"}
 3D printed piece normal to surface of aeroshell.
 ![Rubber Latch]({{ "/assets/images/rubber-latch.jpg" | relative_url }}){: .inline-image-r style="width: 38.5%"}
+![Gas Strut Assembly]({{ "/assets/images/gas-strut-assembly.jpg" | relative_url }}){: .inline-image-1 style="width: 100%"}  
