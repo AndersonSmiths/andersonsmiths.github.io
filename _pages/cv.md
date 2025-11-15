@@ -3,14 +3,21 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-## Curriculum Vitae
+<!-- Professional CV header - Updated by Daniel Akinwale -->
+<div class="text-center mb-5 pb-4 border-bottom border-secondary">
+  <h2 class="text-white mb-4">Curriculum Vitae</h2>
+  <div class="d-flex justify-content-center flex-wrap gap-4 mb-4 text-white">
+    <span><i class="bi bi-envelope-fill me-2"></i><a href="mailto:dda38@cornell.edu" class="text-white text-decoration-none">dda38@cornell.edu</a></span>
+    <span><i class="bi bi-telephone-fill me-2"></i><a href="tel:+18565625495" class="text-white text-decoration-none">(856) 562-5495</a></span>
+    <span><i class="bi bi-linkedin me-2"></i><a href="https://www.linkedin.com/in/daniel-akinwale-894297202/" target="_blank" rel="noopener" class="text-white text-decoration-none">LinkedIn Profile</a></span>
+  </div>
 
-[Download my Resume]({{ "/assets/Resume.pdf" | relative_url }}) in PDF format.
-
-
-**Email:** [dda38@cornell.edu](mailto:dda38@cornell.edu)  
-**Phone:** [+1 (856) 562-5495](tel:+18565625495)  
-**LinkedIn:** [Click Here](https://www.linkedin.com/in/daniel-akinwale-894297202/){:target="_blank" rel="noopener"}
+  <div class="mt-4">
+    <a href="{{ "/assets/Resume.pdf" | relative_url }}" class="btn btn-light btn-lg px-4" download>
+      <i class="bi bi-download me-2"></i>Download PDF Resume
+    </a>
+  </div>
+</div>
 
 ---
 
