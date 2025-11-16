@@ -12,4 +12,17 @@ My name is Daniel Akinwale, and I am senior studying mechanical engineering at C
 
 I am detail-oriented with knowledge of design, prototyping, and process development. I’m eager to lend my combined knowledge and skills to enhance business performance. I operate well in both individual and team capacities, leveraging seasoned work ethic to quickly adapt to different processes and drive project objectives. I’m resourceful and results-driven with a passion for growth and the desire to increase the value of both my projects and myself.
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
+---
+
+<!-- Styled navigation buttons - Updated by Daniel Akinwale -->
+<div class="mt-4 mb-4 text-center">
+  <h4 class="mb-4 text-white">Explore My Work</h4>
+  <div class="d-flex gap-3 justify-content-center flex-wrap">
+    <a href="{{ "/projects/" | relative_url }}" class="btn btn-lg btn-light" style="min-width: 200px;">
+      <i class="bi bi-folder-fill me-2"></i>View Projects
+    </a>
+    <a href="{{ "/cv/" | relative_url }}" class="btn btn-lg btn-light" style="min-width: 200px;">
+      <i class="bi bi-file-earmark-text-fill me-2"></i>View CV
+    </a>
+  </div>
+</div>
