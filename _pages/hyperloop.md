@@ -31,7 +31,7 @@ image: /assets/images/hub-hyperloop.jpg
 <style>
 .hyperloop-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 400px));
+  grid-template-columns: repeat(3, minmax(240px, 320px));
   gap: 30px;
   justify-content: center;
   margin: 0 auto;
